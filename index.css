@@ -111,6 +111,12 @@ img {
     color: #6C6F73;
 }
 
+.card-deck {
+    padding: 1rem 0 0 0;
+}
+
+
+
 /* Media Queries */
 
 @media screen and ( min-width : 991px ) {
@@ -124,5 +130,6 @@ img {
     
     
     
+
 
 
