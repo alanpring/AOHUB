@@ -61,7 +61,7 @@ img {
     text-transform: uppercase;
 }
 
-#quick-cards {
+.cards {
     padding: 4rem 0;
 }
 
@@ -87,7 +87,7 @@ img {
     background: #f0f0f0;
 }
 
-#feature-four .feature-content {
+#feature-feedback .feature-content {
     padding: 0;
 }
 
