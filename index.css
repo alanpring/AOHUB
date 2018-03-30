@@ -88,6 +88,10 @@ img {
     color: white;
 }
 
+.feature-dark h3 {
+    color: white;
+}
+
 .feature-alt {
     background: #f0f0f0;
 }
@@ -121,7 +125,6 @@ img {
 }
 
 
-
 /* Media Queries */
 
 @media screen and ( min-width: 991px) {
@@ -133,7 +136,7 @@ img {
 }
 
 /* MOBILE */
-@media screen and ( max-width: 500px) {
+@media screen and ( max-width: 991px) {
 
     #stage-caption {
         max-width: 95%;    
@@ -160,5 +163,17 @@ img {
     .feature-content a {
     margin-top: 0.75rem;
     margin-right: 0.5rem;
-    }   
+    } 
+    
+    .feature-dark h3 {
+    margin-top: 2rem;
+    }
+    
+    #feature-feedback img {
+        margin-bottom: 1rem;
+    }
+    
+    #feature-feedback a {
+        margin-bottom: 1rem;
+    }
 }
