@@ -107,7 +107,7 @@ img {
 #main-footer {
     background: #f0f0f0;
     color: black;
-    padding: 6rem 0;
+    padding: 2rem 0;
     font-size: 0.8rem;
 }
 
@@ -125,6 +125,17 @@ img {
 }
 
 
+#feature-training-two {
+    padding-bottom: 5rem;
+}
+
+#feature-devices .feature-content img {
+    padding-bottom: 5rem;
+    padding-left: 2rem
+}
+
+
+
 /* Media Queries */
 
 @media screen and ( min-width: 991px) {
@@ -136,44 +147,55 @@ img {
 }
 
 /* MOBILE */
+
 @media screen and ( max-width: 991px) {
 
     #stage-caption {
-        max-width: 95%;    
+        max-width: 95%;
     }
-    
+
     #feature-training-one h6 {
         margin-top: 2rem;
     }
-    
+
     #feature-training-one {
         margin-bottom: -4rem;
     }
-    
+
     .container {
         max-width: 90%;
     }
     .feature-content {
-    padding-top: 4rem;
-}
+        padding-top: 4rem;
+    }
     .feature-content img {
-    margin-top: 2rem;
+        margin-top: 2rem;
     }
     /* amend this to affect buttons only. currently affects all a */
     .feature-content a {
-    margin-top: 0.75rem;
-    margin-right: 0.5rem;
-    } 
-    
-    .feature-dark h3 {
-    margin-top: 2rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
     }
-    
+
+    .feature-dark h3 {
+        margin-top: 2rem;
+    }
+
     #feature-feedback img {
         margin-bottom: 1rem;
     }
-    
+
     #feature-feedback a {
         margin-bottom: 1rem;
     }
+
+    #feature-lonely iframe {
+        margin-bottom: -5rem;
+    }
+
+    #feature-devices .feature-content img {
+        padding-bottom: 2rem;
+        padding-left: 0rem
+    }
+
 }
