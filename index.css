@@ -134,6 +134,12 @@ img {
     padding-left: 2rem
 }
 
+.img-overlay {
+    margin-top: -8rem;
+    height: auto;
+    width: 80%;
+}
+
 
 
 /* Media Queries */
@@ -196,6 +202,10 @@ img {
     #feature-devices .feature-content img {
         padding-bottom: 2rem;
         padding-left: 0rem
+    }
+
+    .img-overlay {
+        margin-left: 2rem;
     }
 
 }
