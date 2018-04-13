@@ -31,6 +31,11 @@ img {
     max-width: 100%;
 }
 
+.navbar-brand img {
+    max-height: auto;
+    max-width: 7rem;
+}
+
 .blockquote {
     font-size: 1.6rem;
     color: #333;
@@ -146,8 +151,9 @@ img {
 }
 
 
-
+/*               */
 /* Media Queries */
+/*               */
 
 @media screen and ( min-width: 991px) {
 
@@ -214,3 +220,5 @@ img {
     }
 
 }
+
+
