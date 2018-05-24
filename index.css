@@ -60,7 +60,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
 #stage-caption {
     font-size: 1.4rem;
@@ -150,9 +150,33 @@ img {
     width: 80%;
 }
 
+/* ADS */
+
+.ad-display {
+    background: #dbdbdb;
+    color: black;
+    padding: 2.5rem 0 3rem;
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.advertising {
+    color: gray;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+/* ADS END */
+
 
 /*               */
+
 /* Media Queries */
+
 /*               */
 
 @media screen and ( min-width: 991px) {
@@ -219,6 +243,8 @@ img {
         margin-left: 2rem;
     }
 
+    .ad-display {
+        padding: 1.5rem 0 2rem;
+    }
+
 }
-
-

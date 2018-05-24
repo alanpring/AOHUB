@@ -20,6 +20,18 @@
     <meta name="robots" content="noindex,nofollow">
 
     <title>Ad Ops Hub 2.1</title>
+
+
+    <!-- ADS -->
+    <!-- CALL GPT LIBRARY -->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <!-- CALL CUSTOM GPT SCRIPT -->
+    <script src='gpt-ads-01.js'></script>
+    <!-- ADS END -->
 </head>
 
 <body>
@@ -77,6 +89,12 @@
         </div>
     </div>
 
+    <!-- AD #1 -->
+    <section class="ad-display">
+        <h6 class="advertising">Advertising.</h6>
+        <!-- 24156345/TEST_testsite/TEST_pring-site/homepage/leaderboard-1 -->
+        <div id='leaderboard-1'></div>
+    </section>
 
     <!-- QUICK LINK CARDS -->
     <section id="feature-quick-links" class="cards">
@@ -154,6 +172,13 @@
         </div>
     </section>
 
+    <!-- AD #2 -->
+    <section class="ad-display">
+        <h6 class="advertising">Advertising.</h6>
+        <!-- 24156345/TEST_testsite/TEST_pring-site/homepage/mpu-1 -->
+        <div id='mpu-1'></div>
+    </section>
+
     <!-- TRAINING ONE -->
     <section id="feature-training-one">
         <div class="container">
@@ -195,6 +220,13 @@
                 </div>
             </div>
         </div>
+    </section>
+    
+    <!-- AD #3 -->
+    <section class="ad-display">
+        <h6 class="advertising">Advertising.</h6>
+        <!-- 24156345/TEST_testsite/TEST_pring-site/homepage/mpu-2 -->
+        <div id='mpu-2'></div>
     </section>
 
     <!-- FEEDBACK -->
@@ -364,5 +396,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <!-- CALL ADS -->
+    <script>
+        googletag.cmd.push(function() {
+            //If single request architecture (SRA) is being used, all unfetched ad slots at the moment display is called will be fetched in a single instance of googletag.display().
+            //so even if we call one ad, it will initiate the whole queue
+            //https://developers.google.com/doubleclick-gpt/reference#googletag.display
+            googletag.display('leaderboard-1');
+        });
+    </script>
 </body>
 </html>
