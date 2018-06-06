@@ -62,15 +62,23 @@ googletag.cmd.push(function () {
             ], 'mpu-2').addService(googletag.pubads());
 
     //native ad
+    
+    /*
+    //DISABLE NATIVE
+    
+    
     googletag.defineSlot('/24156345/TEST_testsite/TEST_pring-site/homepage/native', [
                 ['fluid'],
             ], 'native').addService(googletag.pubads());
+    
+    //DISABLE NATIVE END
+    */ 
 
     //
     //Define page variables
     //
     //ads adtest kv to this page
-    googletag.pubads().setTargeting("adtest", "hellome");
+    googletag.pubads().setTargeting("adtest", ["hellome", "testads", "adopshub"]);
     //age set by var
     //googletag.pubads().setTargeting("age", age);
     //enable SRA mode
